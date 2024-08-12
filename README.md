@@ -1,6 +1,9 @@
 # Sobre o repositório
 
-Aqui tem algumas telas de carregamento e redirecionamento
+<p align="center">Nesse repositório tem algumas telas de carregamento e redirecionamento</p>
+<br>
+
+<img src="Video.gif">
 
 <br>
 
