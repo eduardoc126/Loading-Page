@@ -3,7 +3,7 @@
 <p align="center">Nesse repositório tem algumas telas de carregamento e redirecionamento</p>
 <br>
 
-<img src="Gif.gif">
+<img src="Gif.GIF">
 
 <br>
 
