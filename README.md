@@ -1,4 +1,4 @@
-# Sobre o repositório
+<h1 align="center">Sobre o repositório</h1>
 
 <p align="center">Nesse repositório tem algumas telas de carregamento e redirecionamento</p>
 <br>
