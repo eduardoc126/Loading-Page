@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecionamento</title>
+
+  <style>
+    .bar-load {
+      width: 80%;
+      background-color: transparent;
+      border: 1px solid black;
+      border-radius: 25px;
+      margin: 0 auto;
+      justify-content: center;
+      justify-items: center;
+      text-align: center
+    }
+
+    .bar-loaded {
+      padding: 18px;
+      border-radius: 25px;
+      animation: loaded 5s both;
+      /* coloque o mesmo valor da linha 88, só que em segundos!  */
+    }
+
+    @keyframes loaded {
+      from {
+        width: 0%;
+        background-color: palegreen;
+
+      }
+
+      to {
+        width: 94.5%;
+        background-color: limegreen;
+      }
+    }
+
+    .copy {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333333;
+      color: #666262;
+      text-align: center;
+      padding: 2px 0;
+      font-size: 18px;
+      cursor: default;
+    }
+
+    h1::after {
+      animation: pontos 1.9s infinite;
+    }
+
+    @keyframes pontos {
+      0% {
+        content: "";
+      }
+
+      20% {
+        content: ".";
+      }
+
+      40% {
+        content: "..";
+      }
+
+      60% {
+        content: "...";
+      }
+
+      80% {
+        content: "..";
+      }
+
+      100% {
+        content: ".";
+      }
+    }
+  </style>
+
+  <script>
+    setTimeout(function() {
+      window.location.href = 'https://marcoseduardo.dev.br'; //link do seu site aqui
+    }, 5000); //toda vez que quiser diminuir/aumentar o tempo de carregamento mexa aqui (cada 1000 é 1 segundo)
+  </script>
+
+</head>
+
+<body>
+
+  <div style="text-align: center; margin-top: 45vh; font-family: Arial, Helvetica, sans-serif">
+
+    <h1>Redirecionado</h1>
+
+    <div class="bar-load">
+      <div class="bar-loaded">
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <span class="copy">&copy; eduardo_c126</span>
+  </footer>
+
+</body>
+
+</html>
